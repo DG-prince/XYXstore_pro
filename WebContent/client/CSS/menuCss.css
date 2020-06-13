@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(../IMG/p5.jpg);
+	background-size: 100% ;
+}
+
+#hello {
+	margin-left: 70%;
+	text-align: center;
+	background-color: #FFF0F5;
+	position:absolute;
+	width:200px;
+	height:50px;
+}
+#hello p {
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	
+	/*居中*/
+	position:absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%,-50%);
+}
+
+#hello a {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	position:relative;
+	top:20%;
+	
+}
+
+a:link {
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	fon-sizet: 30px;
+	font-wight: bold;
+	text-decoration: none;
+}
+#introduce{
+	
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cross {
+	background-color: #FFC0CB;
+	width: 200px;
+	height: 40px;
+	position:relative;
+	
+	text-align: center;
+    
+    margin: 10px;
+}
+
+#cardMenu {
+	
+}
+
+#divmenu {
+	width: 900px;
+	height: 600px;
+	
+	/*居中*/
+	margin-left: 10%;
+	
+	/*overflow-y:scroll;*/
+	/*background-color: rgba(123,114,124,0.9);*/
+	
+	text-align: center;
+}
+#select {
+	/*居中*/
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
+	width: 750px;
+	height: 500px;
+}
+#select .cross {
+	background-color: #87CEEB;
+	width: 200px;
+	height: 40px;
+	
+	text-align: center;
+    
+    margin: 20px;
+}
+
+
+#divsearch {
+	margin-left: 500px;
+}
+#divsearch input {
+	/*边框*/
+	border-top: 10px solid pink;
+	border-left: 10px solid pink;
+	border-right: 10px solid pink;
+	border-bottom: 10px solid pink;
+	/*background-color: white;*/
+	
+	/*宽高*/
+	padding: 10px 0px;
+	width: 150px;
+	
+	font-size: 20px; 
+	font-weight: bold;
+	margin-left:10px;
+	text-align:center;
+	
+}
+#divsearch button {
+	/*边框*/
+
+	background-color: pink;
+	
+	/*宽高*/
+	height: 50px;
+	width: 100px;
+	
+	font-size: 20px; 
+	font-weight: bold;
+	
+	margin-left: 10px;
+}

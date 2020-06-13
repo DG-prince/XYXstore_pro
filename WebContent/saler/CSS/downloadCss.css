@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(../IMG/download.jpg);
+	-webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+#bg {
+	width: 600px;
+	height: 700px;
+	background: rgba(255,182,193,0.9);
+	
+	/*居中*/
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
+	/*圆角*/
+	border-radius:10px 10px 10px 10px;
+}
+
+#bg table {
+	/*居中*/
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
+	color: black;
+	font-weight: bold;
+	font-size: 45px;
+	
+	border-spacing: 20px 30px;
+}
+
+#bg input {
+	/*宽高*/
+	padding: 10px 0px;
+	width: 200px;
+	
+	margin-left: 0px;
+}
+#button {
+	margin-left: 150px;
+}
+#button input{
+	background-color: red;
+	
+	width: 120px;
+	height: 50px;
+	
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	
+	border: 0px;
+	margin: 10px;
+	
+	text-align: center;
+}
