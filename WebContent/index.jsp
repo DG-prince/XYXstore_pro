@@ -56,8 +56,8 @@
 	<tr>
 		<td><div class="cross"><a href="${pageContext.request.contextPath}/showProductByPage?gType=百货">百货</a></div></td>
 		<td><div class="cross"><a href="${pageContext.request.contextPath}/showProductByPage?gType=提包">提包</a></div></td> 
-		<td><div class="cross"><a href="${pageContext.request.contextPath}/showProductByPage?gType=策略">母婴</a></div></td>
-		<td><div class="cross"><a href="${pageContext.request.contextPath}/showProductByPage?gType=音乐">饰品</a></div></td>
+		<td><div class="cross"><a href="${pageContext.request.contextPath}/showProductByPage?gType=母婴">母婴</a></div></td>
+		<td><div class="cross"><a href="${pageContext.request.contextPath}/showProductByPage?gType=饰品">饰品</a></div></td>
 	</tr>
 	<tr>
 		<td><div class="cross"><a href="${pageContext.request.contextPath}/showProductByPage?gType=手机">手机</a></div></td>
